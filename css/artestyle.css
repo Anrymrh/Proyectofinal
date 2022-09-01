@@ -1,0 +1,43 @@
+.titulo{
+    background-color: green;
+    height:200px;
+}
+h1{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+p{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color:white;
+    display: flex;
+    justify-content:center;
+}
+.alebrije{
+    background-color: red;
+    height: 700px;
+    width:50%;
+    display: flex;
+
+}
+.img-ale{
+    width:50%;
+}
+article{
+    border:2px solid black;
+    display: flex;
+}
+.crea{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+}
+.perro{
+    height: 700px;
+    width: 600px;
+    display: flex;
+}
