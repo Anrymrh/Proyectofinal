@@ -1,21 +1,85 @@
+.cont1{
+    
+    border:2px solid blue;
+}
+nav{
+    margin:2px;
+    padding:2px;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid green;
+}
+.logo{
+    display: flex;
+    border:2px solid red;
+    padding:5px
+}
+.menu{
+    display:flex;
+    color:black;
+    border:2px solid red; 
+    padding:10px;
+}
+nav a{
+    margin:0.5em 1em 0.5em 1em;
+    text-decoration: none;
+
+}
+.regis{
+    display:flex;
+    border:2px solid red;
+    padding:6px;
+    justify-content: end;
+    font-family: verdana;
+    font-size: 1em;
+}
+.reg1,.reg2{
+    border:1px solid black;
+    border-radius:30px;
+    padding:0.3em;
+}
+.reg2{
+   
+    background-color: black;
+    color:white;
+}
+.logo-menu{
+    display: flex;
+    font-family: verdana;
+}
+
 .titulo{
     background-color: green;
     height:200px;
 }
 h1{
+    font-family: verdana;
+    font-weight: lighter;
+    font-size:2em;
     color:white;
     display:flex;
-    justify-content: center;
+    justify-content:center;
+    /*padding:0.5em 22em 0.5em 22em;*/
+    border:2px solid pink;
+    height:120px;
+    width:600px;
+    
 }
+    
 p{
     color:white;
     display: flex;
     justify-content: center;
+    
+    border:2px solid pink;
+}
+.link{
+    color:white;
 }
 a{
-    color:white;
-    display: flex;
-    justify-content:center;
+    color:black;
+    display:inline-block;
+    /*text-decoration: none;*/
 }
 .alebrije{
     background-color: red;
