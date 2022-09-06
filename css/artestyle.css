@@ -1,24 +1,27 @@
 .cont1{
     
-    border:2px solid blue;
+    
 }
 nav{
     margin:2px;
     padding:2px;
     display: flex;
     justify-content: space-between;
-    border:2px solid green;
+    
+
 }
 .logo{
     display: flex;
-    border:2px solid red;
+    
     padding:5px
 }
 .menu{
     display:flex;
+    justify-content: space-between;
     color:black;
-    border:2px solid red; 
+    
     padding:10px;
+    width:90%;
 }
 nav a{
     margin:0.5em 1em 0.5em 1em;
@@ -27,7 +30,7 @@ nav a{
 }
 .regis{
     display:flex;
-    border:2px solid red;
+    
     padding:6px;
     justify-content: end;
     font-family: verdana;
@@ -36,7 +39,7 @@ nav a{
 .reg1,.reg2{
     border:1px solid black;
     border-radius:30px;
-    padding:0.3em;
+    padding:0.8em;
 }
 .reg2{
    
@@ -46,35 +49,52 @@ nav a{
 .logo-menu{
     display: flex;
     font-family: verdana;
+    
+    width:40%;
 }
 
 .titulo{
-    background-color: green;
-    height:200px;
+    background-color: rgba(6, 59, 6, 0.91);
+    
 }
 h1{
     font-family: verdana;
     font-weight: lighter;
-    font-size:2em;
+    font-size:3.5em;
     color:white;
     display:flex;
     justify-content:center;
-    /*padding:0.5em 22em 0.5em 22em;*/
-    border:2px solid pink;
-    height:120px;
-    width:600px;
+    
+    width:650px;
+    
+    margin:auto;
+    text-align: center;
+    padding:40px;
     
 }
+header p{
+    color:white;
     
+    padding:1em;
+    font-size:1.5em;
+    font-family: verdana;
+    width:750px;
+    margin:auto;
+    text-align: center;
+}    
 p{
     color:white;
-    display: flex;
-    justify-content: center;
     
-    border:2px solid pink;
+    font-size:2.5em;
+    text-align: center;
+    font-family: verdana;
+    padding:1em;
 }
 .link{
     color:white;
+   
+   
+    
 }
 a{
     color:black;
@@ -82,26 +102,69 @@ a{
     /*text-decoration: none;*/
 }
 .alebrije{
-    background-color: red;
-    height: 700px;
-    width:50%;
+    background-color: rgb(201, 13, 54);
+}  
+h2{
     display: flex;
+    color:white;
+    justify-content: center;
+    
+    font-size:3.5em;
+    font-family:verdana;
+    text-align: center;
+    font-weight: ligther;
+    padding:1em;
 
 }
 .img-ale{
     width:50%;
 }
+.imagenes2{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 article{
-    border:2px solid black;
+    
     display: flex;
+    margin:1.5em 0;
 }
 .crea{
-    background-color: red;
-    height: 700px;
-    width: 1000px;
+    background-color: rgb(201, 13, 54);
+    padding:4em;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-.perro{
-    height: 700px;
-    width: 600px;
+
+body{
+    padding:0 50px;
+}
+.pedido1,.pedido2{
+    font-size: 1em;
+    font-family: verdana;
+    border-radius: 30px;
+    color:white;
+    text-decoration: none;
+    
+    padding:0.3em;
+    justify-content:  center;
+    border:1px solid white;
+    border-radius: 30px;
+}
+.pie{
+    color:black;
+    font-size:1em;
     display: flex;
+    justify-content: left;
+
+}
+footer{
+    border-top:2px solid #646d6c;
+    margin:2em;
+}
+footer img{
+    padding:1.5em 0 0 0;
 }
